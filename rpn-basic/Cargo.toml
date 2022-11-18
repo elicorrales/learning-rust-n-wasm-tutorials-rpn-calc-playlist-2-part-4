@@ -1,0 +1,11 @@
+[package]
+name = "rpn-basic"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rpn_calc"
+crate-type = ["lib"]
+path = "src/rpn-calc.rs"
+
+[dependencies]

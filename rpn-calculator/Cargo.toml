@@ -1,0 +1,9 @@
+[package]
+name = "rpn-calculator"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+rpn-basic = { path = "../rpn-basic" }
+console = "*"
